@@ -26,4 +26,11 @@ public class User {
         return id;
     }
 
+
+    public void minusBalance(int amount) {
+        if (getBalance() < amount) {
+            throw new IllegalArgumentException("not enoght money");
+        }
+        this.balance -= amount;
+    }
 }
