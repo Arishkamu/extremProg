@@ -18,10 +18,12 @@ public class User {
         return balance;
     }
 
+
     public String getLogin() {
         return login;
     }
     public int getId(){
         return id;
     }
+
 }

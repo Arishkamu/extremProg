@@ -22,7 +22,9 @@ public class Roulette {
     }
 
 
+
     public User findByUid(Integer id) {
         return users.get(id);
     }
+
 }
