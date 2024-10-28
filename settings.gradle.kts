@@ -1,2 +1,2 @@
-rootProject.name = "ep"
+rootProject.name = "extremProg"
 
