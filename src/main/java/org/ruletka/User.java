@@ -17,4 +17,13 @@ public class User {
     public int getBalance() {
         return balance;
     }
+
+
+    public String getLogin() {
+        return login;
+    }
+    public int getId(){
+        return id;
+    }
+
 }
