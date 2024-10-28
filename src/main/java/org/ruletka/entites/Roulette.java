@@ -21,4 +21,8 @@ public class Roulette {
         return users.size();
     }
 
+
+    public User findByUid(Integer id) {
+        return users.get(id);
+    }
 }
