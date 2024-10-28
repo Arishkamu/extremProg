@@ -1,5 +1,6 @@
 package org.ruletka;
 
+
 public class User {
 
     private int id;
