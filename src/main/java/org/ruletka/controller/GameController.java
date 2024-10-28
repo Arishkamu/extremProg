@@ -1,6 +1,5 @@
 package org.ruletka.controller;
-import org.ruletka.entites.Bet;
-import org.ruletka.entites.Result;
+import org.ruletka.entites.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

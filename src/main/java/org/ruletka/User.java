@@ -8,9 +8,10 @@ public class User {
     private final String password;
     private int balance = 1000;
 
-    User (String login, String password) {
+    public User(String login, String password, int id) {
         this.login = login;
         this.password = password;
+        this.id = id;
     }
 
     public int getBalance() {
