@@ -1,1 +1,0 @@
-LoosePackageCoupling	-	No packages or classes specified
