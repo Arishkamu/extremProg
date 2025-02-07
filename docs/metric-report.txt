@@ -1,0 +1,6 @@
+hse/se/extremProg/src/main/java/org/ruletka/controller/GameController.java:1:	CouplingBetweenObjects:	A value of 3 may denote a high amount of coupling within the class (threshold: 1)
+hse/se/extremProg/src/main/java/org/ruletka/controller/LoginController.java:1:	CouplingBetweenObjects:	A value of 5 may denote a high amount of coupling within the class (threshold: 1)
+hse/se/extremProg/src/main/java/org/ruletka/controller/RouletteService.java:1:	CouplingBetweenObjects:	A value of 6 may denote a high amount of coupling within the class (threshold: 1)
+hse/se/extremProg/src/main/java/org/ruletka/entites/Bet.java:6:	DataClass:	The class 'Bet' is suspected to be a Data Class (WOC=20.000%, NOPA=0, NOAM=4, WMC=6)
+hse/se/extremProg/src/main/java/org/ruletka/entites/Roulette.java:1:	CouplingBetweenObjects:	A value of 6 may denote a high amount of coupling within the class (threshold: 1)
+hse/se/extremProg/src/test/java/org/ruletka/TestUser.java:1:	CouplingBetweenObjects:	A value of 2 may denote a high amount of coupling within the class (threshold: 1)

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="Custom Metrics Ruleset"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0
+                        http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+    <description>
+        Custom ruleset to check Java code metrics such as complexity and coupling.
+    </description>
+
+    <rule ref="category/java/design.xml/CouplingBetweenObjects">
+        <properties>
+            <property name="threshold" value="1" />
+        </properties>
+    </rule>
+
+    <rule ref="category/java/design.xml/DataClass" />
+
+</ruleset>
